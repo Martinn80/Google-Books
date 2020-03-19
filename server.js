@@ -2,9 +2,9 @@ const express = require("express")
 const app = express()
 const path = require("path")
 const mongoose = require("mongoose")
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 7000
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks"
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/google-book"
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
