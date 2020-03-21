@@ -30,7 +30,7 @@ function App() {
             <hr />
             <input onChange={handleChange} className="form-control" type="text" />
             <button onClick={handleSubmit} className="btn btn-primary">submit</button>
-            <ul style={{ backgroundColor: "#ffc0cb" }}>
+            <ul style={{ backgroundColor: "#3e4c5e" }}>
                 {apiResult.map(book =>
                     <li key={book.id} style={{ display: "inline" }}>
                         <a href={book.volumeInfo.previewLink}>
